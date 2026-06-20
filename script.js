@@ -41,3 +41,13 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+// Mobile Menu Toggle Logic
+const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+const navLinksContainer = document.getElementById("nav-links");
+
+if (mobileMenuBtn && navLinksContainer) {
+  mobileMenuBtn.addEventListener("click", () => {
+    navLinksContainer.classList.toggle("show");
+  });
+}
