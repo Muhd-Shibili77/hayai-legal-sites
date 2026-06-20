@@ -5,28 +5,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Your Company</title>
+    <title>Hayai | Fast, Reliable, Smart Service Management</title>
 </head>
 
 <body>
-    <nav>
-        <a href="privacy-policy.html">Privacy Policy</a>
-        <a href="terms-and-conditions.html">Terms & Conditions</a>
-        <a href="help-support.html">Help & Support</a>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Hayai</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="help-support.html">Support</a></li>
+                <li><a href="privacy-policy.html">Privacy</a></li>
+                <li><a href="terms-and-conditions.html">Terms</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode"></button>
+        </div>
     </nav>
 
-    <div class="container">
-        <h1>Your Company</h1>
+    <main>
+        <section class="hero">
+            <h1>Fast, Reliable, Smart Service Management</h1>
+            <p>Hayai bridges the gap between customers and service engineers. Manage complaints, track AMCs, and resolve
+                issues with our comprehensive mobile and web platforms.</p>
+            <a href="contact-us.html" class="btn">Get Started Today</a>
+        </section>
 
-        <p>
-            Welcome to our service platform.
-        </p>
+        <section class="container">
+            <h2 style="text-align: center;">Why Choose Hayai?</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>For Customers</h3>
+                    <p>Easily log complaints, track engineer ETAs, manage annual maintenance contracts (AMC), and make
+                        secure payments directly through our mobile app.</p>
+                </div>
+                <div class="card">
+                    <h3>For Engineers</h3>
+                    <p>Receive optimized daily schedules, update job statuses in real-time, upload proof of work, and
+                        communicate directly with customers effortlessly.</p>
+                </div>
+                <div class="card">
+                    <h3>For Businesses</h3>
+                    <p>Our upcoming web portal gives you a bird's-eye view of your entire service operation, complete
+                        with analytics, employee tracking, and financial reporting.</p>
+                </div>
+            </div>
+        </section>
 
-        <p>
-            Use the links above to access our legal and support documents.
-        </p>
-    </div>
+        <section class="container"
+            style="background: var(--surface-color); border-radius: var(--radius); border: 1px solid var(--border-color);">
+            <h2>Legal & Support Resources</h2>
+            <p>We believe in full transparency. Access our operational policies and customer support channels below.</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>Privacy Policy</h3>
+                    <p>Learn how we protect and manage your data across our customer and engineer applications.</p>
+                    <a href="privacy-policy.html">Read Policy &rarr;</a>
+                </div>
+                <div class="card">
+                    <h3>Terms & Conditions</h3>
+                    <p>Review the rules and guidelines for using the Hayai platform and its affiliated services.</p>
+                    <a href="terms-and-conditions.html">Read Terms &rarr;</a>
+                </div>
+                <div class="card">
+                    <h3>Help & Support</h3>
+                    <p>Need assistance with a ticket, payment, or app issue? Our support team is here to help.</p>
+                    <a href="help-support.html">Get Support &rarr;</a>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>Hayai</h3>
+                <p>Fast, Reliable, Smart Service Management.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="about-us.html">About Us</a>
+                <a href="help-support.html">Help & Support</a>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms-and-conditions.html">Terms & Conditions</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <a href="contact-us.html">Contact Us</a>
+                <p>support@hayai.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Hayai. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

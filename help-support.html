@@ -4,15 +4,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Help & support</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Help & Support | Hayai</title>
 </head>
 
 <body>
-    <nav>
-        <a href="index.html">Home</a>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Hayai</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="help-support.html" class="active">Support</a></li>
+                <li><a href="privacy-policy.html">Privacy</a></li>
+                <li><a href="terms-and-conditions.html">Terms</a></li>
+                <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode"></button>
+        </div>
     </nav>
 
+    <main>
+        <section class="hero">
+            <h1>How can we help you today?</h1>
+            <div style="max-width: 600px; margin: 0 auto;">
+                <input type="text" class="form-control" placeholder="Search for 'AMC renewal' or 'Track Engineer'..."
+                    style="padding: 1rem; font-size: 1.1rem;">
+            </div>
+        </section>
+
+        <section class="container">
+            <h2>Common Support Topics</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Complaint Support</h3>
+                    <p>Learn how to log a new ticket, edit an existing complaint, or escalate an ongoing issue.</p>
+                </div>
+                <div class="card">
+                    <h3>AMC Support</h3>
+                    <p>Guidance on buying, renewing, or transferring Annual Maintenance Contracts.</p>
+                </div>
+                <div class="card">
+                    <h3>Payment Support</h3>
+                    <p>Troubleshoot failed transactions, request refunds, and download digital invoices.</p>
+                </div>
+                <div class="card">
+                    <h3>Technical Support</h3>
+                    <p>App crashing? GPS not working? Find solutions for common mobile app bugs here.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container"
+            style="background: var(--surface-color); border-radius: var(--radius); margin-bottom: 4rem;">
+            <h2>Emergency & Direct Assistance</h2>
+            <p>If you require immediate assistance regarding an ongoing service or an emergency at your location.</p>
+            <br>
+            <div class="grid" style="margin-top: 0;">
+                <div>
+                    <h4>Business Hours</h4>
+                    <p>Monday - Saturday<br>9:00 AM - 8:00 PM</p>
+                </div>
+                <div>
+                    <h4>Contact Support</h4>
+                    <p>Phone: 1-800-HAYAI-HELP<br>Email: support@hayai.com</p>
+                </div>
+            </div>
+            <br>
+            <a href="contact-us.html" class="btn">Open a Support Ticket</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h3>Hayai</h3>
+                <p>Fast, Reliable, Smart Service Management.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="about-us.html">About Us</a>
+                <a href="help-support.html">Help & Support</a>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms-and-conditions.html">Terms & Conditions</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <a href="contact-us.html">Contact Us</a>
+                <p>support@hayai.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Hayai. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
